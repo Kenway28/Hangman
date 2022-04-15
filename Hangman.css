@@ -148,42 +148,14 @@ header i {
   color: #555;
 }
 
-/* .timing {
-  position: fixed;
-  left: 50%;
-  top: 0%;
-  transform: translateX(-50%);
-  padding: 20px;
-  background-color: white;
-  display: flex;
-  text-align: center;
-  text-transform: capitalize;
-  gap: 10px;
-  box-shadow: 0 0 8px #616161a1;
-  border-radius: 0 0px 10px 10px;
-  font-size: 18px;
-}
-.timing span {
-  color: #4caf50;
-} */
-/* .input-field {
-  height: 75px;
-  width: 100%;
-  justify-content: center;
-  align-items: center;
-  padding: 20px;
-} */
 .box {
   text-align: center;
   font-size: 100px;
   width: 110px;
   height: 110px;
-  /* border-radius: 10px; */
   border-bottom: 3px solid #616161;
-  /* background-color: #efefefaf; */
   color: #333;
   text-transform: uppercase;
-  /* margin: 0 5px; */
   transition: .2s ease;
   display: flex;
   justify-content: center;
@@ -193,22 +165,9 @@ header i {
 }
 
 .blank {
-  /* text-align: center; */
   font-size: 100px;
   width: 40px !important;
   height: 110px;
-  /* border-radius: 10px; */
-  /* border-bottom: none !important; */
-  /* background-color: #efefefaf; */
-  /* color: #333; */
-  /* text-transform: uppercase; */
-  /* margin: 0 5px; */
-  /* transition: .2s ease;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  overflow: hidden; */
-
 }
 .blank
 
