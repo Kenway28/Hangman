@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Find the Word</title>
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="Hangman.css" />
+  </head>
+  <body>
+    <!-- game header -->
+    <header>
+      <ul>
+        <li>Level : <span class="level">Normal</span></li>
+        <li>score : <span class="score" data-score="">0</span></li>
+        <li>Words : <span class="total">25</span></li>
+        <li class="timing">lives : <span class="lives">10</span></li>
+      </ul>
+
+      <div class="game-icons">
+        <i class="fas fa-redo replay"></i>
+        <i class="fas fa-trophy score-button"></i>
+        <i class="fas fa-sliders-h settings-button"></i>
+      </div>
+    </header>
+
+    <div class="word"><span class="box">a</span></div>
+    <div class="keyboard">
+
+    </div>
+    <!-- game settings -->
+    <div class="settings-overlay show-overlay">
+      <div class="settings">
+        <h2>Game Settings</h2>
+
+        <h3>Mode</h3>
+        <section class="mode">
+          <span data-duration="7" data-value="50">Score</span>
+          <span data-duration="9" data-value="25">Arcade</span>
+        </section>
+        <h3>Level</h3>
+        <section class="levels">
+          <span class="active" data-duration="9" data-value="25">Easy</span>
+          <span data-duration="7" data-value="50">Normal</span>
+          <span data-duration="5" data-value="75">Hard</span>
+          <!-- <span data-duration="3" data-value="110">Extreme</span> -->
+        </section>
+
+        <button class="start">Start</button>
+      </div>
+    </div>
+    <div class="high-score-overlay">
+      <div class="high-score">
+        <h2>High Score</h2>
+
+        <section></section>
+        <button class="back">Back</button>
+      </div>
+    </div>
+    <script src="Hangman.js"></script>
+  </body>
+</html>
