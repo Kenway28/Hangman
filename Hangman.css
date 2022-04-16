@@ -30,7 +30,6 @@ header {
   transform: translateX(-50%);
   border-radius: 0 0 10px 10px;
   background-color: #fff;
-
   width: fit-content;
   box-shadow: 0 0 45px #a19e9e77;
   width: 800px;
@@ -143,16 +142,15 @@ header i {
   display: flex;
   justify-content: center;
   align-items: center;
-  /* gap: 20px; */
   font-size: 9em;
   color: #555;
 }
 
 .box {
   text-align: center;
-  font-size: 100px;
-  width: 110px;
-  height: 110px;
+  font-size: 90px;
+  width: 95px;
+  height: 95px;
   border-bottom: 3px solid #616161;
   color: #333;
   text-transform: uppercase;
@@ -163,14 +161,11 @@ header i {
   overflow: hidden;
 
 }
-
 .blank {
   font-size: 100px;
   width: 40px !important;
   height: 110px;
 }
-.blank
-
 .check {
   position: fixed;
   bottom: 60px;
@@ -192,33 +187,14 @@ header i {
   border: 3px solid transparent;
   color: #333;
   margin: 0;
-  border-radius: 0px;
-  /* text-transform: lowercase; */
-
-
 }
-
-.noMatch {
-  background-color: #E53935;
-  border: 3px solid #E53935;
-  color: #fff;
-}
-
-.notPlaced {
-  background-color: #FB8C00;
-  border: 3px solid #FB8C00;
-  color: #fff;
-}
-
 .keyboard {
   position: fixed;
   color: #333;
   padding: 10px;
   display: grid;
   grid-template-columns: repeat(10, 1fr);
-
   gap: 3px;
-
   font-weight: normal;
   align-items: center;
   bottom: 0;
@@ -226,10 +202,8 @@ header i {
   transform: translateX(-50%);
   border-radius: 10px 10px 0px 0px;
   background-color: #fff;
-
   width: fit-content;
   box-shadow: 0 0 25px #a19e9e77;
-  /* width: 800px; */
 }
 
 .keyboard button {
